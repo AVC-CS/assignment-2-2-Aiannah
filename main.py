@@ -5,6 +5,10 @@ def main():
     Use the same variables: celsius fahrenheit 
     ##################################################
     """
+    celsius = int(input('Enter temp in Celsius: ' ))
+    fahrenheit = 9 / 5 * celsius + 32
+
+    print (f'The coverted temperature is: {fahrenheit:.2f}')
 
     """
     ########################################
